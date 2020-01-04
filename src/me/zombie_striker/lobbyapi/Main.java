@@ -92,7 +92,7 @@ public class Main extends JavaPlugin implements Listener {
     Random random = ThreadLocalRandom.current();
     int inventorySize = 9;
     Inventory inventory;
-    String title = ChatColor.GOLD + "LobbyAPI " + ChatColor.WHITE + "- World selector";
+    String title = ChatColor.AQUA + "8-Bit Gaming " + ChatColor.WHITE + "- World Selector";
     private HashMap<String, World> lastWorld = new HashMap<String, World>();
     @SuppressWarnings("unused")
     private LobbyAPI la = new LobbyAPI(this);
@@ -712,6 +712,7 @@ public class Main extends JavaPlugin implements Listener {
                         }
                     event.setCancelled(true);
                 }
+                event.setCancelled(true);
             }
         }
     }
